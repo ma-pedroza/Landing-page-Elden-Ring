@@ -1,0 +1,10 @@
+nav{
+  display: flex;
+  border: solid 1px rgba(255, 239, 90, 0.959);
+  color: white;
+}
+body{
+  background-image: url(./images/main\ image.webp);
+  background-size: 100%;
+  
+}
