@@ -53,25 +53,35 @@ body{
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.637);
   width: 100%;
+  padding-top: 50px;
 }
 #about p{
-  font-size: larger;
+  font-size: 20px;
 }
 
 #video1{
   display: flex;
+  padding-bottom: 140px;
+  padding-left: 40px;
 }
 #video2{
   display: flex;
+  padding-bottom: 100px;
   text-align: right;
+  padding-right: 40px;
+}
+#video2 p, h1{
+  margin-right: 40px;
 }
 #video3{
   display: flex;
+  padding-bottom: 150px;
+  padding-left: 40px;
 }
 .txt-video{
   color: white;
+  padding-left: 40px;
 }
-
 
 #review{
   background-color: #000000e1; 
