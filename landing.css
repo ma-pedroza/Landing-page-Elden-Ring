@@ -28,6 +28,7 @@ nav{
   height: 80px;
   filter: drop-shadow(0 0 10px #ffd95ac0);
   margin-top: 35px;
+  cursor: pointer;
 }
 
 nav ul{
@@ -83,6 +84,12 @@ body{
   padding-left: 40px;
 }
 
+#video2 .txt-video{
+  display: flex;
+  flex-direction: column;
+  align-items:end
+}
+
 #review{
   background-color: #000000e1; 
   display: flex;
@@ -90,3 +97,5 @@ body{
   justify-content: center;
   padding-top: 1px;
 }
+
+/* Faltam tabelas, forms, JAVA SCRIPT */
