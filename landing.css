@@ -97,5 +97,23 @@ body{
   justify-content: center;
   padding-top: 1px;
 }
+#requisitos{
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #061b0b;
+  padding: 20px;
+}
+#requisitos table{
+  color: white;
+  text-align: left;
+}
+.tabela td{
+  color: white;
+  border: 1px solid white;
+  padding-right: 25px;
+}
 
 /* Faltam tabelas, forms, JAVA SCRIPT */
