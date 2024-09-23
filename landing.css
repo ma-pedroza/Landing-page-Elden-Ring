@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 
 nav{
@@ -103,17 +105,75 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #061b0b;
-  padding: 20px;
+  background-image: url(./images/gif\ elden\ ring\ 4.gif);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.829);
+  height: 700px;
 }
 #requisitos table{
   color: white;
   text-align: left;
+  font-size: 20px;
+}
+#requisitos h1{
+  font-size: 50px;
 }
 .tabela td{
   color: white;
   border: 1px solid white;
   padding-right: 25px;
+  padding: 25px;
 }
+
+#adquira{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "PT Sans";
+  background-image: url(./images/giphy.gif);
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.808);
+  background-size: cover;
+}
+#botoes{
+  display: flex;
+  gap: 25px;
+}
+
+ 
+#xbox{
+  height: 85px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-image: url(./images/1280px-XBOX_logo_2012.svg.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#playstation{
+  height: 85px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-image: url(./images/PS5-white-logo-transparent-background.webp);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#pc{
+  height: 85px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-image: url(./images/);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 /* Faltam tabelas, forms, JAVA SCRIPT */
