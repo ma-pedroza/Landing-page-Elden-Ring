@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 
 
@@ -115,9 +116,14 @@ body{
   color: white;
   text-align: left;
   font-size: 20px;
+  border-spacing: 25px;
+  font-family: "Rubik", sans-serif;
 }
 #requisitos h1{
   font-size: 50px;
+  font-family: "Rubik", sans-serif;
+  padding-bottom: 55px;
+  padding-top: 55px;
 }
 .tabela td{
   color: white;
@@ -132,15 +138,21 @@ body{
   flex-direction: column;
   align-items: center;
   color: white;
-  font-family: "PT Sans";
+  font-family: "Rubik", sans-serif;
   background-image: url(./images/giphy.gif);
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.808);
   background-size: cover;
 }
+#adquira h1{
+  padding-bottom: 45px;
+  font-size: 50px;
+  padding-top: 25px;
+}
 #botoes{
   display: flex;
-  gap: 25px;
+  gap: 55px;
+  padding-top: 35px;
 }
 
  
@@ -154,6 +166,14 @@ body{
   background-repeat: no-repeat;
   background-position: center;
 }
+#xbox:hover{
+  transform: scale(1.2);
+  transition: all 0.5s;
+  filter: drop-shadow(0 0 65px #5aff5a);
+  background-color:#ffffffc0;
+  border: none;
+}
+
 #playstation{
   height: 85px;
   width: 300px;
@@ -164,15 +184,30 @@ body{
   background-repeat: no-repeat;
   background-position: center;
 }
+#playstation:hover{
+  transform: scale(1.2);
+  transition: all 0.5s;
+  filter: drop-shadow(0 0 65px #0084ff);
+  background-color: #000747;
+  border: none;
+}
 #pc{
   height: 85px;
   width: 300px;
   border: 1px solid white;
   border-radius: 8px;
-  background-image: url(./images/);
-  background-size: 25%;
+  background-image: url(./images/BWs3+k.png);
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
+}
+#pc:hover{
+  transform: scale(1.2);
+  transition: all 0.5s;
+  filter: drop-shadow(0 0 65px #ffffff);
+  background-color: rgb(18, 20, 56);
+  border: none  ;
+
 }
 
 
