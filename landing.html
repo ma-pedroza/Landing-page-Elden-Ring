@@ -12,23 +12,24 @@
   <nav>
     <img src="./images/eldenring_new.png" height="65px">
     <ul>
-      <li>Home</li>
-      <li>Imagens</li>
-      <li>Compre Agora</li>
-      <li>Sobre</li>
+      <li class="li_opcoes">Inicio</li>
+      <li class="li_opcoes">Características</li>
+      <li class="li_opcoes">Compre Agora</li>
+      <li class="li_opcoes">Imagens</li>
+      <li class="li_opcoes">Sobre</li>
     </ul>
   </nav>
   <div id="hero" style="color: white; text-align: center; margin: 250px; font-size: 30px;">
-    <h1>Elden Ring</h1>
-    <p>Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino<br>
+    <h1 style="padding-bottom: 25px;">Elden Ring</h1>
+    <p style="padding-bottom: 25px;">Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino<br>
       e se tornar um Lorde Prístino nas Terras Intermédias.</p>
-    <button>Comprar agora!</button>
+    <button onclick="irParaAdquira()">COMPRE AGORA</button>
   </div>
   </div>
   <div id="about">
     <h1 style="font-size: 60px; padding-bottom: 50px; color: white; text-align: center;">Características</h1>
     <div id="video1">
-      <video width="600" loop muted autoplay>
+      <video width="550" loop muted autoplay>
         <source src="https://static.bandainamcoent.eu/video/eldenring-kf-01-animated-new.webm">
       </video>
       <div class="txt-video">
@@ -49,12 +50,12 @@
           totalmente nas planícies gramadas, pântanos sufocantes, montanhas em espiral, castelos agourentos e outros
           locais de grandeza em uma escala nunca vista antes em um título da FromSoftware.</p>
       </div>
-      <video width="600" loop muted autoplay>
+      <video width="550" loop muted autoplay>
         <source src="https://static.bandainamcoent.eu/video/eldenring-kf-02-animated-new.webm">
       </video>
     </div>
     <div id="video3">
-      <video width="600" loop muted autoplay>
+      <video width="550" loop muted autoplay>
         <source src="https://static.bandainamcoent.eu/video/eldenring-kf-03-animated-new.webm">
       </video>
       <div class="txt-video">
@@ -112,6 +113,11 @@ Placa de Som: Dispositivo de Áudio compatível com Windows
     </table>
   </div>
   <footer></footer>
+<script>
+  function irParaAdquira(){
+    document.getElementById('adquira').scrollIntoView({behavior: 'smooth'});
+  }
+</script>
 
 
 
