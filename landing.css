@@ -234,6 +234,50 @@ body{
 
 }
 
+#formulario{
+  font-family:"Rubik", sans-serif;
+  background-image: url(./images/gif\ malekiht.gif);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-color: #000000f8;
+}
+#msg{
+  background-color: rgba(255, 255, 255, 0);
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+#msg input{
+  width: 40%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Rubik", sans-serif;
+}
+#msg button{
+  background-color: #c19d53;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 10%;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+#msg button:hover{
+  filter: drop-shadow(0 0 30px #ffd95a);
+  border: 1px solid #c19d53;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.2s;
+
+
+}
+
+
 
 
 /*, forms,*/

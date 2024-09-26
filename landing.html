@@ -16,7 +16,7 @@
       <li onclick="irParaCarac()" class="li_opcoes">Características</li>
       <li onclick="irParaAdquira()" class="li_opcoes">Compre Agora</li>
       <li onclick="irParaRequisitos()" class="li_opcoes">Requisitos</li>
-      <li class="li_opcoes">Sobre</li>
+      <li onclick="irParaFormulario()" class="li_opcoes">Avalie</li>
     </ul>
   </nav>
   <div id="hero">
@@ -109,7 +109,16 @@ Placa de Som: Dispositivo de Áudio compatível com Windows
 
     </table>
   </div>
-  <footer"></footer>
+  <div id="formulario">
+    <form id="msg">
+      <h2>Nos envie sua opinião sobre o jogo!</h2>
+      <input type="text" id="txtNome" name="txtNome" placeholder="Seu nome" style="padding-left: 10px;"><br>
+      <input type="text" id="txtEmail" name="txtEmail" placeholder="Seu Email" style="padding-left: 10px;"><br>
+      <input type="text" id="txtMsg" name="txtMsg" placeholder="Sua Mensagem"style="padding-left: 10px;"><br> 
+      <button type="button">Enviar</button>
+    </form>
+  </div>
+  <footer></footer>
 <script>
   function irParaAdquira(){
     document.getElementById('adquira').scrollIntoView({behavior: 'smooth'});
@@ -123,6 +132,9 @@ Placa de Som: Dispositivo de Áudio compatível com Windows
   function irParaRequisitos(){
     document.getElementById('requisitos').scrollIntoView({behavior:'smooth'})
   }
+  function irParaFormulario(){
+    document.getElementById('formulario').scrollIntoView({behavior:'smooth'})
+    }
 </script>
 
 
