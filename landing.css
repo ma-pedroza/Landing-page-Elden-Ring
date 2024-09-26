@@ -26,10 +26,17 @@ nav{
   border: none;
 }
 #hero{
-  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center; 
+  margin: 250px; 
+  font-size: 25px;
+  
 }
 #hero button{
-  background-color: #ffde21;
+  background-color: #ffe02b;
   color: rgb(255, 255, 255);
   font-size:19px;
   font-weight: bold;
@@ -46,8 +53,8 @@ nav{
 #hero button:hover{
   transform: scale(1.1);
   transition: all 0.5s;
-  filter: drop-shadow(0 0 50px #ffd95ac0);
-  background-color: #ffde21;
+  filter: drop-shadow(0 0 50px #ffd95a);
+  background-color: #ffe02b;
   border: none;
 }
 
@@ -60,6 +67,7 @@ nav ul{
 }
 nav li{
   padding: 15px;
+  font-size: 18px;
   
 }
 
@@ -71,35 +79,40 @@ body{
   margin: 0;
 }
 #about{
-  background-image: url(./images/gif\ 3.gif);
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.637);
   width: 100%;
-  padding-top: 50px;
+  background-image: url(./images/bolus-recipe-elden-ring-v0-vv6w35c7nvwa1.gif);
+  background-size:cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.911);
+  padding-top: 15px;
+  font-family: 'Mantinia Regular';
 }
+
 #about p{
   font-size: 20px;
+}
+#about h1{
+  font-size: 25px;
 }
 
 #video1{
   display: flex;
-  padding-bottom: 140px;
-  padding-left: 40px;
+  padding-left: 150px;
+  padding-bottom: 100px;
 }
 #video2{
   display: flex;
-  padding-bottom: 100px;
   text-align: right;
-  padding-right: 40px;
+  padding-left: 150px;
+  padding-bottom: 100px;
 }
 #video2 p, h1{
   margin-right: 40px;
 }
 #video3{
   display: flex;
-  padding-bottom: 150px;
-  padding-left: 40px;
+  padding-left: 150px;
+  padding-bottom: 100px;
 }
 .txt-video{
   color: white;
@@ -109,15 +122,7 @@ body{
 #video2 .txt-video{
   display: flex;
   flex-direction: column;
-  align-items:end
-}
-
-#review{
-  background-color: #000000e1; 
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  padding-top: 1px;
+  align-items: end;
 }
 #requisitos{
   color: white;
@@ -230,4 +235,5 @@ body{
 }
 
 
-/* Faltam tabelas, forms, JAVA SCRIPT */
+
+/*, forms,*/
