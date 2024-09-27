@@ -267,6 +267,7 @@ body{
   width: 10%;
   font-size: 18px;
   font-family: "Rubik", sans-serif;
+  margin-top: 25px;
 }
 #msg button:hover{
   filter: drop-shadow(0 0 30px #ffd95a);
@@ -275,6 +276,11 @@ body{
   transition: all 0.2s;
 
 
+}
+.erro{
+  color: rgb(255, 31, 31);
+  display: none;
+  font-size: 13px;
 }
 
 
