@@ -17,6 +17,7 @@
       <li onclick="irParaAdquira()" class="li_opcoes">Compre Agora</li>
       <li onclick="irParaRequisitos()" class="li_opcoes">Requisitos</li>
       <li onclick="irParaFormulario()" class="li_opcoes">Avalie</li>
+      <li onclick="irParaRecado()" class="li_opcoes">Coming Soon</li>
     </ul>
   </nav>
   <div id="hero">
@@ -123,6 +124,9 @@ Placa de Som: Dispositivo de Áudio compatível com Windows
   </div>
   <footer></footer>
 <script>
+    function irParaRecado(){
+    window.location.href="recado.html";
+  }
   function irParaAdquira(){
     document.getElementById('adquira').scrollIntoView({behavior: 'smooth'});
   }
@@ -162,7 +166,6 @@ Placa de Som: Dispositivo de Áudio compatível com Windows
     else{
       document.getElementById("erro-email").style.display="none";
     }
-    
     }
 </script>
 
